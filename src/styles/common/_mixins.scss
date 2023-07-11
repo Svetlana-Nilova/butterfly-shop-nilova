@@ -1,0 +1,45 @@
+@mixin inner($width: 1278px) {
+  max-width: $width + $gap;
+  margin: 0 auto;
+  padding: 0 $gap-half;
+  border: 1px solid $color-accent;
+}
+
+@mixin section-title {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+}
+
+@mixin logo {
+  color: $color-light;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  text-decoration: none;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}

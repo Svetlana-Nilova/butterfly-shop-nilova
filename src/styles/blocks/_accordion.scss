@@ -1,0 +1,46 @@
+.accordion {
+  margin-top: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 45, 45, 0.20);
+  background: #FFF;
+}
+
+.accordion-question {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  font-family: $font;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: normal;
+  border: none;
+  color: $color-dark;
+  background-color: #FFF;
+  text-align: left;
+
+  &.open {
+    .accordion-icon {
+      background-image: url('../img/icon-minus.svg');
+    }
+  }
+}
+
+.accordion-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  background-image: url('../img/icon-plus.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.accordion-answer {
+  display: none;
+  padding: 0 30px 30px 30px;
+  font-weight: 300;
+  font-size: 18px;
+  background-color: $color-light;
+}

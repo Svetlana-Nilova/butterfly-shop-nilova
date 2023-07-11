@@ -1,0 +1,39 @@
+.btn {
+  display: inline-block;
+  padding: 30px 45px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  color: $color-light;
+  text-decoration: none;
+  text-align: center;
+  background-color: $color-accent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  @media (max-width: $mobile-max) {
+    padding: 20px 14px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+.btn-form {
+  width: 100%;
+  padding: 35px 140px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 40px;
+    padding: 35px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: 30px;
+  }
+}

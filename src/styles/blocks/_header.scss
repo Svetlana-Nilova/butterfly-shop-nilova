@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  padding:16px 0;
+  color: $color-light;
+  background-color: $color-dark;
+
+}
+
+.header-inner {
+  @include inner;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  @include logo;
+  margin-right: auto;
+}
+
+.header-burger {
+  display: none;
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: $color-dark;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
+}

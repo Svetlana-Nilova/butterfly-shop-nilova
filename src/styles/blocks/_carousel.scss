@@ -1,0 +1,70 @@
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .slick-list {
+    width: calc(100% - 160px);
+  }
+
+  .slick-arrow {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 0;
+    border: 0;
+    background-color: white;
+
+    cursor: pointer;
+  }
+
+  .slick-prev {
+    margin-right: 20px;
+    background-image: url(../img/arrow-left.svg);
+  }
+
+  .slick-next {
+    margin-left: 20px;
+    background-image: url(../img/arrow-right.svg);
+  }
+
+}
+
+
+
+.carousel-row {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  padding: 0 128px;
+}
+
+.carousel-ava {
+  width: 304px;
+  height: 304px;
+  margin-right: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.carousel-text {
+  flex-basis: 50%;
+  padding-left: 12px;
+  text-align: left;
+}
+
+.carousel-name {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 48px;
+  color: $color-dark;
+}
+
+.carousel-quote {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 24px;
+  color: $color-dark;
+  margin-top: 40px;
+}

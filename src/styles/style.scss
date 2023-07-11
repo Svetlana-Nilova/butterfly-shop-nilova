@@ -1,7 +1,27 @@
 // common files
 @import "common/_variables";
+@import "common/_mixins";
 @import "common/_fonts";
 @import "common/_common";
 
+// plugins
+@import "plugins/slick";
+
 // blocks
+@import "blocks/_header";
+@import "blocks/_menu";
 @import "blocks/_promo";
+@import "blocks/_btn";
+@import "blocks/_works";
+@import "blocks/_order";
+@import "blocks/_form";
+@import "blocks/_footer";
+@import "blocks/_social";
+@import "blocks/_reviews";
+@import "blocks/_carousel";
+@import "blocks/_tabs";
+@import "blocks/_faq";
+@import "blocks/_accordion";
+
+
+

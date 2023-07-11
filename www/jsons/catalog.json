@@ -1,0 +1,77 @@
+{
+  "catalog": [
+    {
+      "text": "Бабочка такая",
+      "imgUrl": "img/works-img1.png",
+      "imgAlt": "Бабочка такая",
+      "dataType": "strict"
+    },
+    {
+      "text": "Бабочка растакая",
+      "imgUrl": "img/works-img2.jpg",
+      "imgAlt": "Бабочка растакая",
+      "dataType": "strict"
+    },
+    {
+      "text": "Бабочка сякая",
+      "imgUrl": "img/works-img3.png",
+      "imgAlt": "Бабочка сякая",
+      "dataType": "strict"
+    },
+    {
+      "text": "Кривая",
+      "imgUrl": "img/works-img4.png",
+      "imgAlt": "Кривая",
+      "dataType": "animal"
+    },
+    {
+      "text": "Бабочка такая",
+      "imgUrl": "img/works-img5.png",
+      "imgAlt": "Бабочка такая",
+      "dataType": "big"
+    },
+    {
+      "text": "Бабочка растакая",
+      "imgUrl": "img/works-img6.png",
+      "imgAlt": "Бабочка растакая",
+      "dataType": "big"
+    },
+    {
+      "text": "Бабочка сякая",
+      "imgUrl": "img/works-img7.png",
+      "imgAlt": "Бабочка сякая",
+      "dataType": "child"
+    },
+    {
+      "text": "Кривая",
+      "imgUrl": "img/works-img8.png",
+      "imgAlt": "Кривая",
+      "dataType": "strict"
+    },
+    {
+      "text": "Бабочка такая",
+      "imgUrl": "img/works-img9.png",
+      "imgAlt": "Бабочка такая",
+      "dataType": "big"
+    },
+    {
+      "text": "Бабочка растакая",
+      "imgUrl": "img/works-img10.png",
+      "imgAlt": "Бабочка растакая",
+      "dataType": "big"
+    },
+    {
+      "text": "Бабочка сякая",
+      "imgUrl": "img/works-img11.png",
+      "imgAlt": "Бабочка сякая",
+      "dataType": "big"
+    },
+    {
+      "text": "Кривая",
+      "imgUrl": "img/works-img12.png",
+      "imgAlt": "Кривая",
+      "dataType": "happy"
+    }
+
+  ]
+}

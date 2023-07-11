@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Butterfly</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-row">
+        <a href="index.html" class="header-logo">Butterfly</a>
+        <nav class="menu js-menu">
+          <ul>
+            <li>
+              <a href="catalog.html" class="active">каталог</a>
+            </li>
+            <li>
+              <a href="reviews.html">отзывы</a>
+            </li>
+            <li>
+              <a href="contacts.html">контакты</a>
+            </li>
+            <li>
+              <a href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-burger js-burger" style="background-image: url(img/hamburger-menu.svg)"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="works">
+      <div class="works-inner">
+        <h1 class="works-title">Наши работы</h1>
+        <ul class="tabs">
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link active" data-filter="all">Все</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="strict">Строгие</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="happy">Веселые</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="animal">для животных</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="child">детские</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link js-filter-link" data-filter="big">для взрослых</a>
+          </li>
+        </ul>
+
+        <ul class="works-list js-works-list">
+          <li class="works-item js-works-item" data-type="strict">
+            <figure class="works-figure">
+              <img src="img/works-img1.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка такая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="strict">
+            <figure class="works-figure">
+              <img src="img/works-img2.jpg" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка растакая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="strict">
+            <figure class="works-figure">
+              <img src="img/works-img3.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка сякая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="animal">
+            <figure class="works-figure">
+              <img src="img/works-img4.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Кривая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="big">
+            <figure class="works-figure">
+              <img src="img/works-img5.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка такая</figcaption>
+            </figure>
+          </li>
+
+          <li class="works-item js-works-item" data-type="big">
+            <figure class="works-figure">
+              <img src="img/works-img6.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка растакая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="child">
+            <figure class="works-figure">
+              <img src="img/works-img7.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка сякая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="strict">
+            <figure class="works-figure">
+              <img src="img/works-img8.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Кривая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="big">
+            <figure class="works-figure">
+              <img src="img/works-img9.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка такая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="big">
+            <figure class="works-figure">
+              <img src="img/works-img10.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка растакая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="big">
+            <figure class="works-figure">
+              <img src="img/works-img11.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Бабочка сякая</figcaption>
+            </figure>
+          </li>
+          <li class="works-item js-works-item" data-type="happy">
+            <figure class="works-figure">
+              <img src="img/works-img12.png" alt="" class="works-img" >
+              <figcaption class="works-img-desc">Кривая</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <button class="btn js-catalog-btn">Все бабочки</button>
+      </div>
+    </section>
+
+    <section class="order">
+      <div class="order-inner">
+        <h2 class="order-title">Закажи пошив</h2>
+        <p class="order-desc">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На встрече он снимет мерки и поможет обределиться с тканью.</p>
+        <form action="" class="form">
+          <div class="form-field">
+            <label for="name" class="form-label">Ваше имя</label>
+            <input type="text" id="name" name="name" class="form-input">
+          </div>
+          <div class="form-field">
+            <label for="phone" class="form-label">Телефон</label>
+            <input type="tel" id="phone" name="phone" class="form-input">
+          </div>
+          <div class="form-field">
+            <button type="submit" class="btn btn-form">Заказать</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-row">
+        <a href="index.html" class="header-logo">Butterfly</a>
+        <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
+        <ul class="social">
+          <li class="social-item">
+            <a href="#" class="social-link" title="Мы в Instagram" style="background-image: url(img/icon-inst.svg);"></a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" title="Мы в Facebook" style="background-image: url(img/icon-facebook.svg);"></a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" title="Мы в Telegram" style="background-image: url(img/icon-telegram.svg);"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/jquery-3.7.0.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

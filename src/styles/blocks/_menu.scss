@@ -1,0 +1,51 @@
+.menu {
+  @media (min-width: $desktop) {
+    display: block !important;
+  }
+
+  @media (max-width: $tablet-max) {
+    display: block;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: $color-dark;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    @media (max-width: $mobile-max) {
+      display: block;
+    }
+  }
+
+  li {
+      margin-left: 10px;
+      text-align: center;
+  }
+
+  a {
+    padding: 33px 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-light;
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+      background-color: $color-accent;
+    }
+    @media (max-width: $mobile-max) {
+      padding: 8px 25px;
+    }
+  }
+
+}
